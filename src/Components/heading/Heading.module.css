@@ -1,7 +1,9 @@
 .container {
     /* background-color: rgb(194, 218, 194); */
-    background-image: url("https://images.pexels.com/photos/1666021/pexels-photo-1666021.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-image: url("https://images.pexels.com/photos/1438761/pexels-photo-1438761.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     background-position: center;
     background-size: cover;
-    height: 93vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 91vh;
 }
