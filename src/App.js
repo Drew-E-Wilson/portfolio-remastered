@@ -1,12 +1,23 @@
 import React, {BrowserRouter as Router, Link, Switch, Route} from 'react-router-dom';
-import {useEffect, useState} from 'react';
 import './App.css';
+import Navbar from './Components/navbar/Navbar';
+import Heading from './Components/heading/Heading';
+import About from './Components/about/About';
+import Projects from './Components/projects/Projects';
+import Resume from './Components/resume/Resume';
+import Contact from './Components/contact/Contact';
 
 function App() {
+
+
   return (
     <div className="App">
-      <nav></nav>
-      <main>Hellow World</main>
+      <Navbar/>
+      <Heading/>
+      <About/>
+      <Projects/>
+      <Resume/>
+      <Contact/>
     </div>
   );
 }
