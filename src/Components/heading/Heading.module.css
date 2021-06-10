@@ -1,9 +1,29 @@
 .container {
-    /* background-color: rgb(194, 218, 194); */
     background-image: url("https://images.pexels.com/photos/1438761/pexels-photo-1438761.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 91vh;
+}
+
+.container > h1 {
+    font-size: 6rem;
+    box-shadow: 5px 5px 7px rgb(248, 248, 255);
+}
+
+.container > h2 {
+    font-size: 3rem;
+}
+
+.container > h4 {
+    font-size: 2rem;
+}
+
+.container > button {
+    width: 25rem;
+    height: 3rem;
+    font-size: 2rem;
+    border-radius: 5px;
+    border: 2px solid black;
 }
