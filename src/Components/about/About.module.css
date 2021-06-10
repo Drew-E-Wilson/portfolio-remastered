@@ -1,7 +1,7 @@
 .container {
     /* background-color: rgb(235, 230, 240); */
     background-image: url('https://images.pexels.com/photos/326240/pexels-photo-326240.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
-    height: 95vh;
+    height: 91vh;
     display: flex;
     justify-content: space-around;
     background-position: center;
@@ -11,7 +11,7 @@
 
 
 .description_container {
-    height: 95vh;
+    height: inherit;
     width: 50vw;
     margin: auto;
     background-color: rgba(80, 77, 83, 0.65);

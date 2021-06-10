@@ -4,7 +4,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 91vh;
+    height: 100vh;
+    /* filter: blur(1px) */
 }
 
 .container > h1 {
