@@ -2,7 +2,7 @@
 
 ## Built with React and contains info about my life, passions, and projects. Enjoy.
 
-### www.drewwilson.netlify.com
+### https://drewwilson.netlify.app/
 
 #### Technologies used include:
 - React
