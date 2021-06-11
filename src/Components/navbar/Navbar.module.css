@@ -1,5 +1,5 @@
 .navbar {
-  height: 9vh;
+  height: 70px;
   width: 100vw;
   background-color: rgb(20, 20, 20);
   display: flex;
@@ -38,4 +38,25 @@
 .navlinks:hover {
   color: rgb(228, 92, 92);
   cursor: pointer;
+}
+
+@media screen and (max-width: 1250px) {
+  .mylinks {
+    margin-right: .5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navlogo{
+    margin-left: .7rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .navlogo {
+    font-size: 16px;
+  }
+  .mylinks {
+    display: none;
+  }
 }

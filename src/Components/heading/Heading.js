@@ -15,7 +15,10 @@ export default function Heading() {
         <div className={styles.container} id="myheader">
             <div className={styles.header_container}>
                 <h1>Drew Wilson</h1>
-                <h2>Software Developer: <span className={styles.rotating_names} ref={textRef}></span></h2>
+                <div className={styles.rotating_container}>
+                    <h2>Software Developer: </h2>
+                    <span className={styles.rotating_names} ref={textRef}></span>
+                </div>
                 <div className={styles.social_sites_container}>
                     <a href="https://www.linkedin.com/in/drew-e-wilson/" target="_blank"><h2 className={styles.icon_logos}><AiFillLinkedin /></h2></a>
                     <a href="https://github.com/Drew-E-Wilson" target="_blank"><h2 className={styles.icon_logos}><AiFillGithub /></h2></a>

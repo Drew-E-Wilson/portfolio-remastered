@@ -1,20 +1,20 @@
 .footer_container {
-    height: 200px;
     background-color: black;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-top: -30px;
 }
 
 .sep_container > h4 {
     color: ghostwhite;
+    display: block;
 }
 
 .footer_sites_container {
     display: flex;
   justify-content: center;
+  margin: 15px 0px;
 }
 
 .icon_logos {
@@ -22,3 +22,9 @@
     font-size: 38px;
     margin: 0px 20px 10px 20px;
   }
+
+@media screen and (max-width: 1024px) {
+  .footer_sites_container {
+    /* margin: 200px; */
+  }
+}
