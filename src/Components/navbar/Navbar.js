@@ -1,19 +1,19 @@
-import React, {Link} from 'react-scroll';
+import React, { Link } from 'react-scroll';
 import styles from './Navbar.module.css';
 
 export default function Navbar() {
     const logo = "< Drew Wilson / >"
 
     return (
-        <div className={styles.navbar}>
+        <div className={styles.navbar} id="mynavbar">
             <div>
-                <h4 className={styles.navlogo}>{logo}</h4>
+                <Link className={styles.navlogo} to="myheader" smooth={true} duration={1000}>{logo}</Link>
             </div>
             <div className={styles.mylinks}>
-                <Link className={styles.navlinks}>ABOUT</Link>
-                <Link className={styles.navlinks}>PROJECTS</Link>
-                <Link className={styles.navlinks}>RESUME</Link>
-                <Link className={styles.navlinks}>CONTACT</Link>
+                <Link className={styles.navlinks} to="aboutme" smooth={true} duration={1000}>ABOUT</Link>
+                <Link className={styles.navlinks} to="myprojects" smooth={true} duration={1000}>PROJECTS</Link>
+                {/* <Link className={styles.navlinks}>RESUME</Link> */}
+                <Link className={styles.navlinks} to="myresume" smooth={true} duration={1000}>CONTACT</Link>
             </div>
         </div>
     )

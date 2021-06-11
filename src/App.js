@@ -1,4 +1,5 @@
-import React, { BrowserRouter as Router, Link, Switch, Route } from 'react-router-dom';
+import React from 'react';
+// import { Link, animateScroll as scroll } from "react-scroll";
 import './App.css';
 import Navbar from './Components/navbar/Navbar';
 import Heading from './Components/heading/Heading';

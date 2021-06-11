@@ -2,7 +2,7 @@ import styles from './About.module.css';
 
 export default function About() {
     return (
-        <div className={styles.container}>
+        <div className={styles.container} id="aboutme">
             <div className={styles.description_container}>
                 <h1>About Me</h1>
                 <h4>I am a Software Engineer with a background in International Business. I use enjoy using the MERN stack to build applications that solve clients’ needs and make their lives easier.</h4>

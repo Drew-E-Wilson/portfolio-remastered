@@ -7,11 +7,11 @@ export default function Heading() {
     const textRef = useRef();
 
     useEffect(() => {
-        init(textRef.current, { showCursor: false, backDelay: 1000, backSpeed: 60, strings: ['Front-End', "Back-End", 'Full-Stack'] })
+        init(textRef.current, { showCursor: false, backDelay: 800, backSpeed: 60, strings: ['Front-End', "Back-End", 'Full-Stack'] })
     }, [])
 
     return (
-        <div className={styles.container}>
+        <div className={styles.container} id="myheader">
             <div className={styles.header_container}>
                 <h1>Drew Wilson</h1>
                 <h2>Software Developer: <span className={styles.rotating_names} ref={textRef}></span></h2>

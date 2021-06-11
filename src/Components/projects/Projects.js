@@ -3,7 +3,7 @@ import styles from './Projects.module.css';
 export default function Projects() {
 
     return (
-        <div className={styles.project_section}>
+        <div className={styles.project_section} id="myprojects">
             <div className={styles.background_pic}>
                 <div className={styles.projects_title_div}>
                     <h1 className={styles.project_text}>PROJECTS</h1>

@@ -13,7 +13,7 @@
 
 .mylinks {
   color: ghostwhite;
-  margin-right: 10rem;
+  margin-right: 6rem;
   width: 24rem;
   display: flex;
   justify-content: space-between;
@@ -26,6 +26,16 @@
   font-size: 1.5rem;
 }
 
+.navlogo:hover {
+  color: rgb(228, 92, 92);
+  cursor: pointer;
+}
+
 .navlinks {
   margin: 0rem 1rem;
+}
+
+.navlinks:hover {
+  color: rgb(228, 92, 92);
+  cursor: pointer;
 }
