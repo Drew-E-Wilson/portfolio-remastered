@@ -13,19 +13,20 @@
 
 .header_container > h1 {
   font-size: 6.2rem;
-  text-shadow: 2px 2px 2px rgb(143, 22, 48);
+  text-shadow: 2px 2px 3px rgb(133, 14, 40);
+  margin-top: 20px;
 }
 
 .header_container > h2 {
   font-size: 3.8rem;
-  text-shadow: 2px 2px 2px rgb(143, 22, 48);
+  text-shadow: 2px 2px 3px rgb(133, 14, 40);
   width: 865px;
   text-align: left;
 }
 
 .rotating_names {
   color: ghostwhite;
-  text-shadow: 2px 2px 2px rgb(143, 22, 48);
+  text-shadow: 2px 2px 3px rgb(133, 14, 40);
 }
 
 .header_container > h4 {
@@ -39,12 +40,15 @@
   border-radius: 5px;
   background-color: black;
   color: ghostwhite;
+  box-shadow: 0px 0px 10px 1px rgb(255, 255, 255);
+  margin-top: 10px;
 }
 
 .header_container > button:hover {
   background-color: ghostwhite;
   color: black;
   cursor: pointer;
+  box-shadow: 0px 0px 10px .5px rgb(0, 0, 0);
 }
 
 .social_sites_container {

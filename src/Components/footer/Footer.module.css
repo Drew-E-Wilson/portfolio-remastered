@@ -2,10 +2,23 @@
     height: 200px;
     background-color: black;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin-top: -30px;
 }
 
-.footer_container h2 {
+.sep_container > h4 {
     color: ghostwhite;
 }
+
+.footer_sites_container {
+    display: flex;
+  justify-content: center;
+}
+
+.icon_logos {
+    color: ghostwhite;
+    font-size: 38px;
+    margin: 0px 20px 10px 20px;
+  }
