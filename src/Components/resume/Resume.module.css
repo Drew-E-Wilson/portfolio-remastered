@@ -1,3 +1,39 @@
-.resume_container {
-    background-color: lightsalmon;
+.block_container {
+  /* background-color: black; */
+  background-image: linear-gradient(rgb(26, 37, 99), rgb(0, 0, 0));
+  /* background-image: url("https://images.pexels.com/photos/1257860/pexels-photo-1257860.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"); */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 320px;
+  width: 100vw;
+}
+
+.info_container {
+  background-color: rgb(241, 241, 248);
+  height: 200px;
+  width: 380px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin: 10px 30px 10px 30px;
+}
+
+.react_icon {
+  font-size: 26px;
+  margin-top: 30px;
+  margin-bottom: -10px;
+}
+
+.info_container > p {
+  margin-top: -15px;
+}
+
+.info_container > a {
+  text-decoration: none;
+  color: rgb(218, 81, 81);
+}
+
+.info_container > h3 {
+  color: rgb(218, 81, 81);
 }

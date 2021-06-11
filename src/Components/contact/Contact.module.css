@@ -1,3 +1,49 @@
 .contact_container {
-    background-color: rgb(195, 195, 120);
+  /* background-image: linear-gradient(rgb(0, 0, 0), rgb(1, 98, 143)); */
+  background-image: linear-gradient(rgb(68, 68, 83), black);
+  /* background-color: rgb(68, 68, 83); */
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form_container {
+  height: 370px;
+  border: 3px solid black;
+  width: 700px;
+  border-radius: 10px;
+  background-color: aliceblue;
+}
+
+.info_input {
+  width: 450px;
+  font-size: 16px;
+  height: 18px;
+  margin: 5px 0px;
+  border: 2px solid rgb(65, 39, 87);
+}
+
+.infobox {
+  width: 450px;
+  font-size: 14px;
+  margin: 20px 0px;
+  border: 2px solid rgb(65, 39, 87);
+}
+
+.form_container > h2 {
+  font-size: 26px;
+  text-shadow: 0.5px 0.5px 1px rgb(127, 81, 141);
+}
+
+.form_button {
+  width: 150px;
+  font-size: 18px;
+  margin-top: -5px;
+  padding: 3px 0px;
+}
+
+.form_button:hover {
+  background-color: rgb(9, 130, 160);
+  color: ghostwhite;
 }
