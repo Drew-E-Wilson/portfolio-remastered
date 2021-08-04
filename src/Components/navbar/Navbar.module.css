@@ -40,6 +40,21 @@
   cursor: pointer;
 }
 
+/* .resumealink {
+  text-decoration: none;
+}
+
+.resumelink {
+  text-decoration: none;
+  color: ghostwhite;
+  font-size: 1.5rem;
+}
+
+.resumelink:hover {
+  color: rgb(228, 92, 92);
+  cursor: pointer;
+} */
+
 @media screen and (max-width: 1250px) {
   .mylinks {
     margin-right: .5rem;

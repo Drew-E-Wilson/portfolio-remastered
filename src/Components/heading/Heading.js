@@ -23,7 +23,8 @@ export default function Heading() {
                     <a href="https://www.linkedin.com/in/drew-e-wilson/" target="_blank"><h2 className={styles.icon_logos}><AiFillLinkedin /></h2></a>
                     <a href="https://github.com/Drew-E-Wilson" target="_blank"><h2 className={styles.icon_logos}><AiFillGithub /></h2></a>
                 </div>
-                <Link className={styles.header_button} to="myprojects" smooth={true} duration={1000}>SKIP TO PROJECTS</Link>
+                {/* <Link className={styles.header_button} to="myprojects" smooth={true} duration={1000}>SKIP TO PROJECTS</Link> */}
+                <a href="/resume/Resume.pdf" download="Resume.pdf"><div className={styles.header_button}><h3>Resume</h3></div></a>
             </div>
         </div>
     )

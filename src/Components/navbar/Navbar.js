@@ -14,6 +14,7 @@ export default function Navbar() {
                 <Link className={styles.navlinks} to="myprojects" smooth={true} duration={1000}>PROJECTS</Link>
                 {/* <Link className={styles.navlinks}>RESUME</Link> */}
                 <Link className={styles.navlinks} to="myresume" smooth={true} duration={1000}>CONTACT</Link>
+                {/* <a href="/resume/Resume.pdf" download="Resume.pdf" className={styles.resumealink}><h3 className={styles.resumelink}>Resume</h3></a> */}
             </div>
         </div>
     )
