@@ -4,7 +4,7 @@ export default function About() {
     return (
         <div className={styles.container} id="aboutme">
             <div className={styles.pic_container}>
-                <img src="https://i.imgur.com/M4p5Uwb.jpg"></img>
+                <img src="https://i.imgur.com/c5SHVjX.jpg?1"></img>
             </div>
             <div className={styles.info_container}>
                 <h1>About Me</h1>
