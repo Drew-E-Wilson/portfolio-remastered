@@ -37,7 +37,7 @@ export default function Projects() {
                             <p>Website designed to give up-to-date crypto data and be able to save your favorite cryptos for easy access to see their price, market cap, and more.<br />
                                 <br /><u><b>Created With:</b></u><br />
                                 MongoDB | Express.js | React | Node.js | JavaScript | REST API | Chart.js | CSS3 | HTML5 <br />
-                                <a href="https://drew-e-wilson.github.io/Crypto-frontend/" target="_blank" rel="noreferrer"><button id="liveSite">Visit Site</button></a>
+                                <a href="https://cryptotalk.netlify.app/" target="_blank" rel="noreferrer"><button id="liveSite">Visit Site</button></a>
                                 <a href="https://github.com/Drew-E-Wilson/Crypto-frontend" target="_blank" rel="noreferrer"><button id="repo">Repo</button></a></p>
                         </div>
                     </div>
